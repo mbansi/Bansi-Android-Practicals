@@ -18,6 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ch3AndroidA.FormButtonsActivity" />
+        <activity android:name=".ch3AndroidA.ToastActivity" />
     </application>
 
 </manifest>
