@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="18dp"
-        android:text="Customised Toast"
+        android:text="@string/text_customised_toast"
         android:textColor="@color/white"
         android:textSize="18sp" />
 </LinearLayout>

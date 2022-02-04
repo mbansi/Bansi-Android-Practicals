@@ -4,13 +4,29 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../layout/custom_preview.xml" value="0.19487179487179487" />
+        <entry key="../../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1578125" />
+        <entry key="../../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.1671875" />
         <entry key="app/src/main/res/drawable/button_submit.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/button_toast.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/drawable/checkbox_off.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/drawable/checkbox_on.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/drawable/custom_checkbox.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/drawable/custom_spinner.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.19895833333333332" />
         <entry key="app/src/main/res/drawable/icon_android.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/drawable/relative_checkbox.xml" value="0.19589743589743588" />
+        <entry key="app/src/main/res/layout/activity_constraint_layout.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_form_buttons.xml" value="0.16875" />
+        <entry key="app/src/main/res/layout/activity_frame_layout.xml" value="0.165625" />
+        <entry key="app/src/main/res/layout/activity_layouts.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_linear_layout.xml" value="0.1828125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/activity_relative_layout.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_table_layout.xml" value="0.1828125" />
         <entry key="app/src/main/res/layout/activity_toast.xml" value="0.1828125" />
         <entry key="app/src/main/res/layout/layout_custom_toast.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/practice.xml" value="0.1828125" />
+        <entry key="app/src/main/res/layout/spinner_item.xml" value="0.1671875" />
       </map>
     </option>
   </component>

@@ -1,25 +1,17 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:padding="20dp">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/nameTextInput"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/etEmail"
                 android:layout_marginBottom="10dp"
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/colorPrimary"
@@ -29,7 +21,7 @@
                     android:id="@+id/etName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter name"
+                    android:hint="@string/hint_text_name"
                     android:inputType="textPersonName"
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -39,7 +31,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/etEmail"
                 android:layout_marginBottom="10dp"
                 app:endIconMode="clear_text"
                 app:endIconTint="@color/colorPrimary"
@@ -49,7 +40,7 @@
                     android:id="@+id/etEmail"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter email"
+                    android:hint="@string/hint_text_email"
                     android:inputType="textEmailAddress"
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -59,7 +50,6 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/etEmail"
                 app:endIconMode="password_toggle"
                 app:endIconTint="@color/colorPrimary"
                 app:errorEnabled="true">
@@ -68,7 +58,7 @@
                     android:id="@+id/etPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter password"
+                    android:hint="@string/hint_text_password"
                     android:inputType="textPassword"
                     android:textSize="18sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -87,7 +77,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Male"
+                    android:text="@string/text_male"
                     android:textSize="18sp" />
 
                 <androidx.appcompat.widget.AppCompatRadioButton
@@ -95,7 +85,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Female"
+                    android:text="@string/text_female"
                     android:textSize="18sp" />
             </RadioGroup>
 
@@ -103,33 +93,33 @@
                 android:id="@+id/cbSinging"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Singing"
+                android:layout_gravity="start"
+                android:text="@string/text_singing"
                 android:textSize="18sp" />
 
             <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/cbPainting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Painting"
+                android:layout_gravity="start"
+                android:text="@string/text_painting"
                 android:textSize="18sp" />
 
             <androidx.appcompat.widget.AppCompatCheckBox
                 android:id="@+id/cbDancing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:text="Dancing"
+                android:layout_gravity="start"
+                android:text="@string/text_dancing"
                 android:textSize="18sp" />
 
-            <Switch
+            <com.google.android.material.switchmaterial.SwitchMaterial
                 android:id="@+id/switchSubscribe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginBottom="30dp"
-                android:text="Subscribe to emails"
+                android:text="@string/switch_text_subscribe"
                 android:textSize="16sp" />
 
             <androidx.appcompat.widget.AppCompatButton
@@ -142,7 +132,7 @@
                 android:layout_marginBottom="15dp"
                 android:background="@drawable/button_submit"
                 android:padding="8dp"
-                android:text="Submit"
+                android:text="@string/button_text_submit"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="25sp"
@@ -152,12 +142,10 @@
                 android:id="@+id/btnToast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="bottom|right"
+                android:layout_gravity="bottom|end"
                 android:background="@drawable/button_toast"
-                android:text="Toast"
+                android:text="@string/button_text_toast"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold" />
-        </LinearLayout>
-    </ScrollView>
-</FrameLayout>
+</LinearLayout>
 

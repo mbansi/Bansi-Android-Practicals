@@ -1,3 +1,48 @@
 <resources>
     <string name="app_name">JavaKotlin</string>
+
+    <!-- Ch3 Android (A) -->
+    <string name="error_text_name">Name Required</string>
+    <string name="error_text_invalid_email">Invalid email</string>
+    <string name="error_text_email">Email Required</string>
+    <string name="error_text_required">Required</string>
+    <string name="error_text_short_password">Password too short</string>
+    <string name="text_select_gender">Please Select Gender!</string>
+    <string name="text_submitted">Form Submitted!</string>
+    <string name="text_normal_toast">Normal Toast Message</string>
+
+    <!-- Ch3 Android (B) -->
+    <string-array name="FeedbackTypes">
+        <item>Praise</item>
+        <item>Complaint</item>
+        <item>Inquiry</item>
+        <item>Improvement</item>
+    </string-array>
+    <string name="spinner_prompt">Select Feedback Type</string><string name="array">Praise</string>
+    <string name="button_text_chapter3B">Ch3 - Android (B)</string>
+    <string name="button_text_chapter3A">Ch3 - Android (A)</string>
+    <string name="text_feedback_form">Enter feedback details to send to the developer:</string>
+    <string name="hint_text_name">Your Name</string>
+    <string name="hint_text_email">Your email</string>
+    <string name="hint_text_details">Feedback Details..</string>
+    <string name="checkbox_text_response">Would you like an email response?</string>
+    <string name="button_text_send">Send Feedback</string>
+    <string name="hint_text_password">Enter password</string>
+    <string name="text_male">Male</string>
+    <string name="text_female">Female</string>
+    <string name="text_singing">Singing</string>
+    <string name="text_painting">Painting</string>
+    <string name="text_dancing">Dancing</string>
+    <string name="switch_text_subscribe">Subscribe to emails</string>
+    <string name="button_text_submit">Submit</string>
+    <string name="button_text_toast">Toast</string>
+    <string name="button_text_normal_toast">Normal Toast</string>
+    <string name="button_text_custom_toast">Custom Toast</string>
+    <string name="text_customised_toast">Customised Toast</string>
+    <string name="button_text_linear">Linear</string>
+    <string name="button_text_relative">Relative</string>
+    <string name="button_text_constraint">Constraint</string>
+    <string name="button_text_table">Table</string>
+    <string name="button_text_frame_with_grid">Frame With Grid</string>
+
 </resources>
