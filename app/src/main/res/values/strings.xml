@@ -80,4 +80,16 @@
     <string name="item_text_profile">Profile</string>
     <string name="title_expandable_recycler_view">Expandable Recycler View</string>
 
+
+    <!-- Ch3 - Android (C) -->
+
+    <string name="text_enter_your_feedback_here">Enter your feedback here</string>
+
+    <!-- Ch3 - Android (E) -->
+    <string name="text_scroll">Tutorialwing.com presents tutorial on NestedScrollView! NestedScrollView is just like ScrollView, but it supports acting as both a nested scrolling parent and child on both new and old versions of Android. Nested scrolling is enabled by default. NestedScrollView is used when there is need for scrolling inside another scrolling view. Normally this would be difficult task because system would be unable to decide which view to scrole.</string>
+    <string name="button_text_scroll_views">Scroll Views</string>
+    <string name="button_text_nested_scroll_view">Nested Scroll View</string>
+    <string name="button_text_web_view">Web View</string>
+    <string name="button_text_ch3_androidE">Ch3 - Android (E)</string>
+
 </resources>

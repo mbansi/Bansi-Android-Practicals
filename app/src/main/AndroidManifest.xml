@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.javakotlin">
-
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +27,10 @@
         <activity android:name="com.example.javakotlin.ch3AndroidC.activity.LayoutManagerActivity" />
         <activity android:name="com.example.javakotlin.ch3AndroidC.activity.ViewPagerActivity" />
         <activity android:name="com.example.javakotlin.ch3AndroidC.activity.BottomNavigationActivity" />
+        <activity android:name=".ch3AndroidE.ScrollViewActivity" />
+        <activity android:name=".ch3AndroidE.OtherViewsActivity" />
+        <activity android:name=".ch3AndroidE.NestedScrollViewActivity" />
+        <activity android:name=".ch3AndroidE.WebViewActivity" />
         <activity android:name=".RecyclerAdapterActivity" />
         <activity android:name=".listview.ListViewActivity" />
         <activity android:name=".recyclerview.RecyclerViewActivity" />

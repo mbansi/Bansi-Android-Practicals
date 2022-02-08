@@ -35,9 +35,7 @@ class ViewMessageJetPackFragment : Fragment() {
         fabSaveViewJetpack.setOnClickListener {
             val messageText = etMessage.text.toString()
             val action =
-                ViewMessageJetPackFragmentDirections.actionViewMessageJetPackToAddMessageJetpack(
-                    messageText
-                )
+                ViewMessageJetPackFragmentDirections.actionViewMessageJetPackToAddMessageJetpack()
             Navigation.findNavController(view).navigate(action)
         }
 
