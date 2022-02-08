@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DBBDABD"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <TextView
+       android:id="@+id/tvList"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Expandable List View"
+       android:textSize="28sp"
+       android:gravity="center"
+       android:background="@color/colorPrimary"
+       android:padding="10dp"
+       android:textColor="@color/white"
+       android:layout_marginBottom="15dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"/>
+   <ExpandableListView
+       android:id="@+id/elvMovies"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:padding="10dp"
+       app:layout_constraintTop_toBottomOf="@+id/tvList"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       android:groupIndicator="@null"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
