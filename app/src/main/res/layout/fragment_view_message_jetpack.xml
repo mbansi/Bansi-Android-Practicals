@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/text_view_message"
+        android:background="#8C9F8D"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/messageInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:layout_constraintTop_toBottomOf="@id/tvSend"
+        app:layout_constraintStart_toStartOf="parent">
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint_text_type_message"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:padding="15dp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSaveViewJetpack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0900"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/messageInputLayout"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_save"
+        android:contentDescription="@string/desc_text_saving_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

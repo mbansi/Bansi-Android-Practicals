@@ -3,6 +3,8 @@ package com.example.javakotlin
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.javakotlin.ch3AndroidD.activity.NavigationActivity
+import kotlinx.android.synthetic.main.activity_main.*
 import com.example.javakotlin.ch3AndroidC.activity.RecyclerAdapterActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import com.example.javakotlin.ch3AndroidA.FormButtonsActivity
@@ -13,6 +15,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        openNavigation()
+    }
+
+    private fun openNavigation() {
+        btnGalleryMessage.setOnClickListener {
+            val navigationIntent = Intent(this, NavigationActivity::class.java)
+            startActivity(navigationIntent)
+        }
 
         onClickListeners()
     }

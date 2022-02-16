@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/galleryFragment"
+        android:title="Gallery"
+        android:orderInCategory="1"
+        android:icon="@drawable/icon_gallery"/>
+    <item
+        android:id="@+id/addMessageFragment"
+        android:title="Add Message"
+        android:orderInCategory="2"
+        android:icon="@drawable/icon_add_message"/>
+    <item
+        android:id="@+id/viewMessageFragment"
+        android:title="View Message"
+        android:orderInCategory="3"
+        android:icon="@drawable/icon_view_message"/>
+</menu>

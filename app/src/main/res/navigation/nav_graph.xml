@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/galleryFragment">
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.javakotlin.ch3AndroidD.fragments.GalleryFragment"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery">
+        <action
+            android:id="@+id/action_galleryFragment_to_addMessageFragmentJetpack"
+            app:destination="@id/addMessageJetpack" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addMessageJetpack"
+        android:name="com.example.javakotlin.ch3AndroidD.fragments.AddMessageJetPackFragment"
+        android:label="AddMessageJetPackFragment"
+        tools:layout="@layout/fragment_add_message">
+        <action
+            android:id="@+id/action_addMessageFragmentJetpack_to_viewMessageJetPack"
+            app:destination="@id/viewMessageJetPack" />
+        <argument
+            android:name="message"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewMessageJetPack"
+        android:name="com.example.javakotlin.ch3AndroidD.fragments.ViewMessageJetPackFragment"
+        android:label="ViewMessageJetPack"
+        tools:layout="@layout/fragment_view_message_jetpack">
+        <argument
+            android:name="message"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_viewMessageJetPack_to_addMessageJetpack"
+            app:destination="@id/addMessageJetpack"
+            app:popUpTo="@id/galleryFragment"/>
+    </fragment>
+
+</navigation>
