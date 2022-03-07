@@ -1,4 +1,4 @@
-package com.example.javakotlin
+package com.example.javakotlin.ch3AndroidA
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +7,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.doOnTextChanged
+import com.example.javakotlin.R
 import kotlinx.android.synthetic.main.activity_form_buttons.*
 
 class FormButtonsActivity : AppCompatActivity() {
@@ -36,7 +37,7 @@ class FormButtonsActivity : AppCompatActivity() {
 
     private fun displayNameError() {
         if (getValues(etName).isEmpty()) {
-            nameTextInput.error = "Name Required"
+            nameTextInput.error = getString(R.string.error_text_name)
         } else {
             nameTextInput.error = null
         }
@@ -44,9 +45,9 @@ class FormButtonsActivity : AppCompatActivity() {
 
     private fun displayEmailError() {
         if (!getValues(etEmail).matches(emailPattern.toRegex())) {
-            emailTextInput.error = "Invalid email"
+            emailTextInput.error = getString(R.string.error_text_invalid_email)
             if (etEmail.text.toString().isEmpty()) {
-                emailTextInput.error = "Email Required"
+                emailTextInput.error = getString(R.string.error_text_email)
             }
         } else {
             emailTextInput.error = null
@@ -55,8 +56,8 @@ class FormButtonsActivity : AppCompatActivity() {
 
     private fun displayPasswordError() {
         when (getValues(etPassword).length) {
-            0 -> passwordTextInput.error = "Required"
-            1, 2, 3, 4, 5, 6, 7 -> passwordTextInput.error = "Password too short"
+            0 -> passwordTextInput.error = getString(R.string.error_text_required)
+            1, 2, 3, 4, 5, 6, 7 -> passwordTextInput.error = getString(R.string.error_text_short_password)
             else -> passwordTextInput.error = null
         }
     }
@@ -66,16 +67,14 @@ class FormButtonsActivity : AppCompatActivity() {
         displayEmailError()
         displayPasswordError()
         if (!(rbMale.isChecked || rbFemale.isChecked)) {
-            Toast.makeText(applicationContext, "Please Select Gender!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(applicationContext, getString(R.string.text_select_gender), Toast.LENGTH_SHORT).show()
         }
     }
 
     private fun submitForm() {
-        Log.d("Toast:valid", "Submitted ${validateForm().toString()}")
         btnSubmit.setOnClickListener {
             if (validateForm()) {
-                Toast.makeText(applicationContext, "Form Submitted!", Toast.LENGTH_SHORT).show()
-                Log.d("Toast:", "Submitted")
+                Toast.makeText(applicationContext, getString(R.string.text_submitted), Toast.LENGTH_SHORT).show()
             } else {
                 displayErrors()
             }

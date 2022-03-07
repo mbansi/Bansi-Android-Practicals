@@ -1,10 +1,11 @@
-package com.example.javakotlin
+package com.example.javakotlin.ch3AndroidA
 
 import android.app.Activity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.javakotlin.R
 import kotlinx.android.synthetic.main.activity_toast.*
 
 class ToastActivity : AppCompatActivity() {
@@ -19,7 +20,7 @@ class ToastActivity : AppCompatActivity() {
 
     private fun showNormalToast() {
         btnNormal.setOnClickListener {
-            Toast.makeText(applicationContext, "Normal Toast Message", Toast.LENGTH_LONG).show()
+            Toast.makeText(applicationContext, getString(R.string.text_normal_toast), Toast.LENGTH_LONG).show()
         }
     }
 

@@ -18,8 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormButtonsActivity" />
-        <activity android:name=".ToastActivity" />
+        <activity
+            android:name=".ch3AndroidB.activity.TableLayoutActivity"/>
+        <activity android:name=".ch3AndroidB.activity.LinearLayoutActivity" />
+        <activity android:name=".ch3AndroidB.activity.LayoutsActivity" />
+        <activity android:name=".ch3AndroidB.activity.RelativeLayoutActivity" />
+        <activity android:name=".ch3AndroidB.activity.FrameLayoutActivity" />
+        <activity android:name=".ch3AndroidB.activity.ConstraintLayoutActivity" />
+        <activity android:name=".ch3AndroidA.ToastActivity" />
+        <activity android:name=".ch3AndroidA.FormButtonsActivity" />
     </application>
 
 </manifest>

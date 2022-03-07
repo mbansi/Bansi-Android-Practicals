@@ -12,7 +12,7 @@
         android:layout_marginBottom="12dp"
         android:background="@color/colorPrimary"
         android:padding="15dp"
-        android:text="Normal Toast"
+        android:text="@string/button_text_normal_toast"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp" />
@@ -24,7 +24,7 @@
         android:layout_marginBottom="5dp"
         android:background="@color/colorPrimary"
         android:padding="15dp"
-        android:text="Custom Toast"
+        android:text="@string/button_text_custom_toast"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp" />
