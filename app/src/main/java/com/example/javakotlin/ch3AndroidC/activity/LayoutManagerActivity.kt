@@ -1,12 +1,14 @@
-package com.example.javakotlin.layoutmanager
+package com.example.javakotlin.ch3AndroidC.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.javakotlin.CricketerDetails
+import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
+import com.example.javakotlin.ch3AndroidC.adapters.LayoutManagerAdapter
+import com.example.javakotlin.ch3AndroidC.utils.EqualSpacingItemDecoration
 import kotlinx.android.synthetic.main.activity_layout_manager.*
 
 class LayoutManagerActivity : AppCompatActivity() {
@@ -45,11 +47,18 @@ class LayoutManagerActivity : AppCompatActivity() {
         val horizontal = DividerItemDecoration(this, RecyclerView.HORIZONTAL)
         val spacing = EqualSpacingItemDecoration(25)
 
-        rvCricketers.setHasFixedSize(true)
-        rvCricketers.layoutManager = GridLayoutManager(this, 3)
-        rvCricketers.addItemDecoration(vertical)
-        rvCricketers.addItemDecoration(horizontal)
-        rvCricketers.addItemDecoration(spacing)
+        rvCricketers.apply {
+            setHasFixedSize(true)
+            layoutManager = GridLayoutManager(applicationContext, 3)
+            addItemDecoration(vertical)
+            addItemDecoration(horizontal)
+            addItemDecoration(spacing)
+        }
+//        rvCricketers.setHasFixedSize(true)
+//        rvCricketers.layoutManager = GridLayoutManager(this, 3)
+//        rvCricketers.addItemDecoration(vertical)
+//        rvCricketers.addItemDecoration(horizontal)
+//        rvCricketers.addItemDecoration(spacing)
         rvCricketers.adapter = LayoutManagerAdapter(items)
     }
 }

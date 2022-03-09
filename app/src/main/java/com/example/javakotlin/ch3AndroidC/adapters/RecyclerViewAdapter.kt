@@ -1,4 +1,4 @@
-package com.example.javakotlin.recyclerview
+package com.example.javakotlin.ch3AndroidC.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.example.javakotlin.CricketerDetails
+import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
 
 class RecyclerViewAdapter(private var cricketerList: Array<CricketerDetails>) :

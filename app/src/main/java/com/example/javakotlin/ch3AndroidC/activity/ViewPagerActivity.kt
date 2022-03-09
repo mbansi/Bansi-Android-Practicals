@@ -1,9 +1,10 @@
-package com.example.javakotlin.viewpager
+package com.example.javakotlin.ch3AndroidC.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.example.javakotlin.R
+import com.example.javakotlin.ch3AndroidC.adapters.ViewPagerAdapter
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_view_pager.*

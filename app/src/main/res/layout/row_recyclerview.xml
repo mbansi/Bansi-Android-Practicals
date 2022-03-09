@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="15dp"
-    android:clickable="true">
+    android:padding="15dp">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guidelineStart"
@@ -13,7 +12,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="85dp" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/ivItem"
         android:layout_width="70dp"
         android:layout_height="70dp"
@@ -27,7 +26,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Title"
+        android:text="@string/text_title"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintLeft_toRightOf="@+id/guidelineStart"
@@ -37,7 +36,7 @@
         android:id="@+id/tvSubTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Subtitle"
+        android:text="@string/text_subtitle"
         android:textSize="16sp"
         app:layout_constraintLeft_toRightOf="@+id/guidelineStart"
         app:layout_constraintRight_toLeftOf="@id/barrier2"

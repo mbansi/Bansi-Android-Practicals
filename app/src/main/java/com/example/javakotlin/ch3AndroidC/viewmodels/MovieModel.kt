@@ -1,4 +1,4 @@
-package com.example.javakotlin.bottomnavigation.expandable
+package com.example.javakotlin.ch3AndroidC.viewmodels
 
 data class MovieModel(val name: String?, val realName : String? ,
                  val team : String?,

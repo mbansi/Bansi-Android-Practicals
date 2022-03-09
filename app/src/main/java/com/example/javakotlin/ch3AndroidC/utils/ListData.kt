@@ -1,4 +1,4 @@
-package com.example.javakotlin.bottomnavigation.expandable
+package com.example.javakotlin.ch3AndroidC.utils
 
 internal object ListData {
     val data: HashMap<String, List<String>>

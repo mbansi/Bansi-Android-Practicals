@@ -8,7 +8,7 @@
         android:id="@+id/tvRealName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Real name"
+        android:text="@string/text_real_name"
         android:textSize="15sp"
         android:layout_marginStart="25dp"
         android:textColor="@color/colorPrimary"

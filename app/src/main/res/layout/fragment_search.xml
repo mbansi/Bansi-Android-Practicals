@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#C8C8B7">
-    <TextView
+    android:background="@color/color_light_colorprimary">
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/tvRecycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Expandable Recycler View"
+        android:text="@string/title_expandable_recycler_view"
         android:textSize="28sp"
         android:gravity="center"
         android:background="@color/colorPrimary"

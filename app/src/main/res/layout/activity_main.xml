@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:padding="20dp"
-        android:text="Ch3 - Android (C)"
+        android:text="@string/button_text_ch3_android_c"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp"

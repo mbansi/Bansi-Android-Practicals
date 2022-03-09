@@ -1,4 +1,4 @@
-package com.example.javakotlin.bottomnavigation.expandable
+package com.example.javakotlin.ch3AndroidC.adapters
 
 import android.content.Context
 import android.graphics.Typeface
@@ -32,8 +32,7 @@ class ExpandableListAdapter(
     ): View {
         var convertView = convertView
         if (convertView == null) {
-            val layoutInflater =
-                this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val layoutInflater = this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = layoutInflater.inflate(R.layout.child_movie_details, parent, false)
         }
         val child = convertView?.findViewById<TextView>(R.id.tvRealName)
@@ -66,8 +65,7 @@ class ExpandableListAdapter(
         var convertView = convertView
         val title = getGroup(groupPosition)
         if (convertView == null) {
-            val layoutInflater =
-                this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
+            val layoutInflater = this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             convertView = layoutInflater.inflate(R.layout.header_movie, parent, false)
         }
         val movieHeader = convertView?.findViewById<TextView>(R.id.tvMovieName)

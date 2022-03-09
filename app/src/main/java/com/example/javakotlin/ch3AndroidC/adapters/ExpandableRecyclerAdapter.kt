@@ -1,4 +1,4 @@
-package com.example.javakotlin.bottomnavigation.expandable
+package com.example.javakotlin.ch3AndroidC.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +8,7 @@ import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.Group
 import androidx.recyclerview.widget.RecyclerView
 import com.example.javakotlin.R
+import com.example.javakotlin.ch3AndroidC.viewmodels.MovieModel
 
 class ExpandableRecyclerAdapter(
     private val movieList: List<MovieModel>,

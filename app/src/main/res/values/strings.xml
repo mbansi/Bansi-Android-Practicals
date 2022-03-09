@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">JavaKotlin</string>
+
+    <!-- Ch3 - Android (C) -->
+    <string name="button_text_ch3_android_c">Ch3 - Android (C)</string>
+    <string name="button_text_listview_viewholder"><![CDATA[ListView & ViewHolder]]></string>
+    <string name="button_text_recyclerview">RecyclerView</string>
+    <string name="button_text_layoutmanager_itemdecoration"><![CDATA[LayoutManager & ItemDecoration]]></string>
+    <string name="button_text_viewpager">ViewPager</string>
+    <string name="button_text_bottomnavigation_expandable"><![CDATA[BottomNavigation & Expandable]]></string>
+    <string name="text_real_name">Real name</string>
+    <string name="text_favourites">Favourites</string>
+    <string name="text_home_section">Home Section</string>
+    <string name="text_expandable_list_view">Expandable List View</string>
+    <string name="text_recents">Recents</string>
+    <string name="text_movie">Movie</string>
+    <string name="text_team">Team</string>
+    <string name="text_first_appearance">First Appearance</string>
+    <string name="text_title">Title</string>
+    <string name="text_subtitle">Subtitle</string>
+    <string name="item_text_home">Home</string>
+    <string name="item_text_search">Search</string>
+    <string name="item_text_profile">Profile</string>
+    <string name="title_expandable_recycler_view">Expandable Recycler View</string>
+
 </resources>

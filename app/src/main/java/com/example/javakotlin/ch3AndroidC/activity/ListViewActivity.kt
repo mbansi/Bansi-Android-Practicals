@@ -1,9 +1,10 @@
-package com.example.javakotlin.listview
+package com.example.javakotlin.ch3AndroidC.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.javakotlin.CricketerDetails
+import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
+import com.example.javakotlin.ch3AndroidC.adapters.ListViewHolderAdapter
 import kotlinx.android.synthetic.main.activity_list_view.*
 
 class ListViewActivity : AppCompatActivity() {

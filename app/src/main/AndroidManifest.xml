@@ -18,12 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecyclerAdapterActivity" />
-        <activity android:name=".listview.ListViewActivity" />
-        <activity android:name=".recyclerview.RecyclerViewActivity" />
-        <activity android:name=".layoutmanager.LayoutManagerActivity" />
-        <activity android:name=".viewpager.ViewPagerActivity" />
-        <activity android:name=".bottomnavigation.BottomNavigationActivity" />
+        <activity android:name=".ch3AndroidC.activity.RecyclerAdapterActivity" />
+        <activity android:name="com.example.javakotlin.ch3AndroidC.activity.ListViewActivity" />
+        <activity android:name="com.example.javakotlin.ch3AndroidC.activity.RecyclerViewActivity" />
+        <activity android:name="com.example.javakotlin.ch3AndroidC.activity.LayoutManagerActivity" />
+        <activity android:name="com.example.javakotlin.ch3AndroidC.activity.ViewPagerActivity" />
+        <activity android:name="com.example.javakotlin.ch3AndroidC.activity.BottomNavigationActivity" />
     </application>
 
 </manifest>

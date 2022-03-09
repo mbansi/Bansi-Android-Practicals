@@ -1,4 +1,4 @@
-package com.example.javakotlin.layoutmanager
+package com.example.javakotlin.ch3AndroidC.utils
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.View

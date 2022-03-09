@@ -1,13 +1,9 @@
-package com.example.javakotlin
+package com.example.javakotlin.ch3AndroidC.activity
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.javakotlin.bottomnavigation.BottomNavigationActivity
-import com.example.javakotlin.layoutmanager.LayoutManagerActivity
-import com.example.javakotlin.listview.ListViewActivity
-import com.example.javakotlin.recyclerview.RecyclerViewActivity
-import com.example.javakotlin.viewpager.ViewPagerActivity
+import com.example.javakotlin.R
 import kotlinx.android.synthetic.main.activity_recycler_adapter.*
 
 class RecyclerAdapterActivity : AppCompatActivity() {

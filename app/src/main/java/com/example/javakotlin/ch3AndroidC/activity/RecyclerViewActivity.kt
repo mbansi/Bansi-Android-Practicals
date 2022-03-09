@@ -1,13 +1,14 @@
-package com.example.javakotlin.recyclerview
+package com.example.javakotlin.ch3AndroidC.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.javakotlin.CricketerDetails
+import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
 import kotlinx.android.synthetic.main.activity_recycler_view.*
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.javakotlin.ch3AndroidC.adapters.RecyclerViewAdapter
 
 class RecyclerViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

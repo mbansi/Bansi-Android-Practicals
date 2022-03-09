@@ -1,4 +1,4 @@
-package com.example.javakotlin.listview
+package com.example.javakotlin.ch3AndroidC.adapters
 
 import android.app.Activity
 import android.view.View
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.javakotlin.CricketerDetails
+import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
 
 class ListViewHolderAdapter(
