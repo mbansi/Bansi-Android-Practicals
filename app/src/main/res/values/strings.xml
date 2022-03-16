@@ -1,48 +1,26 @@
 <resources>
     <string name="app_name">JavaKotlin</string>
 
-    <!-- Ch3 Android (A) -->
-    <string name="error_text_name">Name Required</string>
-    <string name="error_text_invalid_email">Invalid email</string>
-    <string name="error_text_email">Email Required</string>
-    <string name="error_text_required">Required</string>
-    <string name="error_text_short_password">Password too short</string>
-    <string name="text_select_gender">Please Select Gender!</string>
-    <string name="text_submitted">Form Submitted!</string>
-    <string name="text_normal_toast">Normal Toast Message</string>
-
-    <!-- Ch3 Android (B) -->
-    <string-array name="FeedbackTypes">
-        <item>Praise</item>
-        <item>Complaint</item>
-        <item>Inquiry</item>
-        <item>Improvement</item>
-    </string-array>
-    <string name="spinner_prompt">Select Feedback Type</string><string name="array">Praise</string>
-    <string name="button_text_chapter3B">Ch3 - Android (B)</string>
-    <string name="button_text_chapter3A">Ch3 - Android (A)</string>
-    <string name="text_feedback_form">Enter feedback details to send to the developer:</string>
-    <string name="hint_text_name">Your Name</string>
-    <string name="hint_text_email">Your email</string>
-    <string name="hint_text_details">Feedback Details..</string>
-    <string name="checkbox_text_response">Would you like an email response?</string>
-    <string name="button_text_send">Send Feedback</string>
-    <string name="hint_text_password">Enter password</string>
-    <string name="text_male">Male</string>
-    <string name="text_female">Female</string>
-    <string name="text_singing">Singing</string>
-    <string name="text_painting">Painting</string>
-    <string name="text_dancing">Dancing</string>
-    <string name="switch_text_subscribe">Subscribe to emails</string>
-    <string name="button_text_submit">Submit</string>
-    <string name="button_text_toast">Toast</string>
-    <string name="button_text_normal_toast">Normal Toast</string>
-    <string name="button_text_custom_toast">Custom Toast</string>
-    <string name="text_customised_toast">Customised Toast</string>
-    <string name="button_text_linear">Linear</string>
-    <string name="button_text_relative">Relative</string>
-    <string name="button_text_constraint">Constraint</string>
-    <string name="button_text_table">Table</string>
-    <string name="button_text_frame_with_grid">Frame With Grid</string>
+    <!-- Ch3 - Android (C) -->
+    <string name="button_text_ch3_android_c">Ch3 - Android (C)</string>
+    <string name="button_text_listview_viewholder"><![CDATA[ListView & ViewHolder]]></string>
+    <string name="button_text_recyclerview">RecyclerView</string>
+    <string name="button_text_layoutmanager_itemdecoration"><![CDATA[LayoutManager & ItemDecoration]]></string>
+    <string name="button_text_viewpager">ViewPager</string>
+    <string name="button_text_bottomnavigation_expandable"><![CDATA[BottomNavigation & Expandable]]></string>
+    <string name="text_real_name">Real name</string>
+    <string name="text_favourites">Favourites</string>
+    <string name="text_home_section">Home Section</string>
+    <string name="text_expandable_list_view">Expandable List View</string>
+    <string name="text_recents">Recents</string>
+    <string name="text_movie">Movie</string>
+    <string name="text_team">Team</string>
+    <string name="text_first_appearance">First Appearance</string>
+    <string name="text_title">Title</string>
+    <string name="text_subtitle">Subtitle</string>
+    <string name="item_text_home">Home</string>
+    <string name="item_text_search">Search</string>
+    <string name="item_text_profile">Profile</string>
+    <string name="title_expandable_recycler_view">Expandable Recycler View</string>
 
 </resources>
