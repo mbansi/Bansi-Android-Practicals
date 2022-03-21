@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.javakotlin.ch3AndroidC.activity.RecyclerAdapterActivity
+import com.example.javakotlin.ch3AndroidE.OtherViewsActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,10 @@ class MainActivity : AppCompatActivity() {
         btnRecyclerViewAdapter.setOnClickListener {
             val recyclerIntent = Intent(this, RecyclerAdapterActivity::class.java)
             startActivity(recyclerIntent)
+        }
+        btnOtherView.setOnClickListener {
+            val otherViewIntent = Intent(this,OtherViewsActivity::class.java)
+            startActivity(otherViewIntent)
         }
     }
 }

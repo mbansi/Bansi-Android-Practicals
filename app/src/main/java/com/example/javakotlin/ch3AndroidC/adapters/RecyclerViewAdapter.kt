@@ -4,27 +4,26 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.CheckBox
-import android.widget.ImageView
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.example.javakotlin.ch3AndroidC.viewmodels.CricketerDetails
 import com.example.javakotlin.R
 
-class RecyclerViewAdapter(private var cricketerList: Array<CricketerDetails>) :
+class RecyclerViewAdapter(private var cricketerList: ArrayList<CricketerDetails>) :
     RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
     private lateinit var context: Context
+    private var filterList: ArrayList<CricketerDetails> = cricketerList
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        context  = parent.context
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.row_recyclerview, parent, false)
+        context = parent.context
+        val itemView =
+            LayoutInflater.from(parent.context).inflate(R.layout.row_recyclerview, parent, false)
         return ViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val item = cricketerList[position]
+        val item = filterList[position]
         holder.cricketerName?.text = item.title
         holder.cricketerRole?.text = item.subTitle
         holder.cricketerImage?.setImageResource(item.image as Int)
@@ -32,7 +31,16 @@ class RecyclerViewAdapter(private var cricketerList: Array<CricketerDetails>) :
     }
 
     override fun getItemCount(): Int {
-        return cricketerList.size
+        return filterList.size
+    }
+
+    fun performSearch(sText: String) {
+        val newList = cricketerList.filter {
+            it.title.contains(sText, true)
+        } as ArrayList<CricketerDetails>
+
+        filterList = newList
+        notifyDataSetChanged()
     }
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
