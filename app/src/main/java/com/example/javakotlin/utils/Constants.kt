@@ -9,3 +9,7 @@ const val CREATE_USER_URL = "https://reqres.in/api/users"
 const val POST_METHOD = "POST"
 const val CONTENT_TYPE = "Content-Type"
 const val  APPLICATION_JSON = "application/json"
+const val  EMAIL_REGEX = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
+const val  ZERO = 0
+const val  ONE = 1
+const val  TWO = 2

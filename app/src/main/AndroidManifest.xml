@@ -39,6 +39,8 @@
         <activity android:name=".bottomnavigation.BottomNavigationActivity" />
         <activity
             android:name=".ch3AndroidB.activity.TableLayoutActivity"/>
+
+        <activity android:name=".ch3AndroidB.activity.TableLayoutActivity"/>
         <activity android:name=".ch3AndroidB.activity.LinearLayoutActivity" />
         <activity android:name=".ch3AndroidB.activity.LayoutsActivity" />
         <activity android:name=".ch3AndroidB.activity.RelativeLayoutActivity" />
@@ -50,6 +52,10 @@
         <activity android:name=".ch4WebServices.activity.DelayedResponseActivity" />
         <activity android:name=".ch4WebServices.activity.SingleUserActivity" />
         <activity android:name=".ch4WebServices.activity.CreateUserActivity" />
+        <activity android:name=".ch5Architecture.mvp.view.LoginMVPActivity" />
+        <activity android:name=".ch5Architecture.activity.ArchitectureActivity" />
+        <activity android:name=".ch5Architecture.mvc.view.LoginMVCActivity" />
+        <activity android:name=".ch5Architecture.mvvm.view.MVVMActivity" />
     </application>
 
 </manifest>

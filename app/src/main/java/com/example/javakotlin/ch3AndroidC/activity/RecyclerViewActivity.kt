@@ -68,5 +68,3 @@ class RecyclerViewActivity : AppCompatActivity() {
         rvCricketers.adapter = adapter
     }
 }
-
-
