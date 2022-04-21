@@ -1,6 +1,18 @@
 <resources>
     <string name="app_name">JavaKotlin</string>
 
+    <!-- Ch3 Android (D) -->
+    <string name="button_text_jet_pack_navigation">JetPackNavigation</string>
+    <string name="text_send_message">Send Message</string>
+    <string name="hint_text_type_message">Type message..</string>
+    <string name="desc_text_saving_icon">saving icon</string>
+    <string name="text_view_message">View Message</string>
+    <string name="button_text_ch3_android_d">Ch3 - Android(D)</string>
+    <string name="button_text_fragment_manager">Fragment Manager</string>
+    <string name="text_message_passed">Message passed</string>
+    <string name="title_text_message_history">Message History</string>
+    <string name="title_text_select_image">Select Image</string>
+
     <!-- Ch3 Android (A) -->
     <string name="error_text_name">Name Required</string>
     <string name="error_text_invalid_email">Invalid email</string>

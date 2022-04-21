@@ -23,4 +23,13 @@
         <item name="android:layout_marginBottom">8dp</item>
         <item name="background">@color/grey</item>
     </style>
+
+    <style name="Theme.JavaKotlin.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.JavaKotlin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.JavaKotlin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

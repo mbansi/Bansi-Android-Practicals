@@ -18,6 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ch3AndroidD.activity.GalleryMessageActivity" />
+        <activity android:name=".ch3AndroidD.activity.NavigationActivity" />
+        <activity android:name=".ch3AndroidD.activity.JetPackActivity" />
         <activity android:name=".ch3AndroidC.activity.RecyclerAdapterActivity" />
         <activity android:name="com.example.javakotlin.ch3AndroidC.activity.ListViewActivity" />
         <activity android:name="com.example.javakotlin.ch3AndroidC.activity.RecyclerViewActivity" />
