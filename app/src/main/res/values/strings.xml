@@ -1,18 +1,6 @@
 <resources>
     <string name="app_name">JavaKotlin</string>
 
-    <!-- Ch3 Android (D) -->
-    <string name="button_text_jet_pack_navigation">JetPackNavigation</string>
-    <string name="text_send_message">Send Message</string>
-    <string name="hint_text_type_message">Type message..</string>
-    <string name="desc_text_saving_icon">saving icon</string>
-    <string name="text_view_message">View Message</string>
-    <string name="button_text_ch3_android_d">Ch3 - Android(D)</string>
-    <string name="button_text_fragment_manager">Fragment Manager</string>
-    <string name="text_message_passed">Message passed</string>
-    <string name="title_text_message_history">Message History</string>
-    <string name="title_text_select_image">Select Image</string>
-
     <!-- Ch3 Android (A) -->
     <string name="error_text_name">Name Required</string>
     <string name="error_text_invalid_email">Invalid email</string>
@@ -30,7 +18,8 @@
         <item>Inquiry</item>
         <item>Improvement</item>
     </string-array>
-    <string name="spinner_prompt">Select Feedback Type</string><string name="array">Praise</string>
+    <string name="spinner_prompt">Select Feedback Type</string>
+    <string name="array">Praise</string>
     <string name="button_text_chapter3B">Ch3 - Android (B)</string>
     <string name="button_text_chapter3A">Ch3 - Android (A)</string>
     <string name="text_feedback_form">Enter feedback details to send to the developer:</string>
@@ -57,7 +46,6 @@
     <string name="button_text_table">Table</string>
     <string name="button_text_frame_with_grid">Frame With Grid</string>
 
-
     <!-- Ch3 - Android (C) -->
     <string name="button_text_ch3_android_c">Ch3 - Android (C)</string>
     <string name="button_text_listview_viewholder"><![CDATA[ListView & ViewHolder]]></string>
@@ -79,11 +67,19 @@
     <string name="item_text_search">Search</string>
     <string name="item_text_profile">Profile</string>
     <string name="title_expandable_recycler_view">Expandable Recycler View</string>
-
-
-    <!-- Ch3 - Android (C) -->
-
     <string name="text_enter_your_feedback_here">Enter your feedback here</string>
+
+    <!-- Ch3 Android (D) -->
+    <string name="button_text_jet_pack_navigation">JetPackNavigation</string>
+    <string name="text_send_message">Send Message</string>
+    <string name="hint_text_type_message">Type message..</string>
+    <string name="desc_text_saving_icon">saving icon</string>
+    <string name="text_view_message">View Message</string>
+    <string name="button_text_ch3_android_d">Ch3 - Android(D)</string>
+    <string name="button_text_fragment_manager">Fragment Manager</string>
+    <string name="text_message_passed">Message passed</string>
+    <string name="title_text_message_history">Message History</string>
+    <string name="title_text_select_image">Select Image</string>
 
     <!-- Ch3 - Android (E) -->
     <string name="text_scroll">Tutorialwing.com presents tutorial on NestedScrollView! NestedScrollView is just like ScrollView, but it supports acting as both a nested scrolling parent and child on both new and old versions of Android. Nested scrolling is enabled by default. NestedScrollView is used when there is need for scrolling inside another scrolling view. Normally this would be difficult task because system would be unable to decide which view to scrole.</string>
@@ -91,5 +87,29 @@
     <string name="button_text_nested_scroll_view">Nested Scroll View</string>
     <string name="button_text_web_view">Web View</string>
     <string name="button_text_ch3_androidE">Ch3 - Android (E)</string>
+
+    <!-- Ch4 Android Web Services -->
+    <string name="button_text_ch4_web_services">Ch4 - Web Services</string>
+    <string name="text_email">Email</string>
+    <string name="text_full_name">Full Name</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_job">Job</string>
+    <string name="button_text_create">Create</string>
+    <string name="fab_text_desc_create_user">Create User</string>
+    <string name="text_id">ID</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_text_login">Login</string>
+    <string name="toast_success">Created Successful</string>
+    <string name="dialog_text_user_created">User Created!</string>
+    <string name="toast_text_login_again">Please login again!</string>
+    <string name="error_text_email_required">Email Required</string>
+    <string name="toast_text_loggged_in_gson">Logged in with Gson</string>
+    <string name="toast_text_unsuccessful">Unsuccessful</string>
+    <string name="dialog_text_ok">OK</string>
+    <string name="dialog_text_welcome">Welcome!</string>
+    <string name="error_text_enter_name">Enter name</string>
+    <string name="error_text_enter_job">Enter job</string>
+    <string name="dialog_message"> ID: %1$s Name: %2$s Job: %3$s createdAt: %4$s</string>
 
 </resources>

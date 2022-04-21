@@ -46,6 +46,10 @@
         <activity android:name=".ch3AndroidB.activity.ConstraintLayoutActivity" />
         <activity android:name=".ch3AndroidA.ToastActivity" />
         <activity android:name=".ch3AndroidA.FormButtonsActivity" />
+        <activity android:name=".ch4WebServices.activity.LoginActivity" />
+        <activity android:name=".ch4WebServices.activity.DelayedResponseActivity" />
+        <activity android:name=".ch4WebServices.activity.SingleUserActivity" />
+        <activity android:name=".ch4WebServices.activity.CreateUserActivity" />
     </application>
 
 </manifest>
