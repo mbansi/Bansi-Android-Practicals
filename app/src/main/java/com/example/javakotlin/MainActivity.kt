@@ -4,13 +4,13 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
-
 import com.example.javakotlin.ch3AndroidA.FormButtonsActivity
 import com.example.javakotlin.ch3AndroidB.activity.LayoutsActivity
 import com.example.javakotlin.ch3AndroidC.activity.RecyclerAdapterActivity
 import com.example.javakotlin.ch3AndroidD.activity.NavigationActivity
 import com.example.javakotlin.ch3AndroidE.OtherViewsActivity
 import com.example.javakotlin.ch4WebServices.activity.LoginActivity
+import com.example.javakotlin.ch5Architecture.activity.ArchitectureActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -44,6 +44,10 @@ class MainActivity : AppCompatActivity() {
         btnWebServices.setOnClickListener {
             val openWebServicesIntent = Intent(this, LoginActivity::class.java)
             startActivity(openWebServicesIntent)
+        }
+        btnArchitecture.setOnClickListener {
+            val architectureIntent = Intent(this, ArchitectureActivity::class.java)
+            startActivity(architectureIntent)
         }
     }
 }

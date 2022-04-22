@@ -12,7 +12,9 @@ import com.example.javakotlin.utils.APPLICATION_JSON
 import com.example.javakotlin.utils.BASE_URL
 import com.example.javakotlin.utils.CONTENT_TYPE
 import com.example.javakotlin.utils.POST_METHOD
-import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_login.btnLogin
+import kotlinx.android.synthetic.main.activity_login.etPassword
+import kotlinx.android.synthetic.main.activity_login_web.*
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback
@@ -32,7 +34,7 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_login_web)
 
         onClick()
     }
@@ -92,7 +94,7 @@ class LoginActivity : AppCompatActivity() {
         credential.put("username", etUsername.text)
         credential.put("password", etPassword.text)
 
-        val url = URL(com.example.javakotlin.utils.BASE_URL + com.example.javakotlin.utils.LOGIN_GSON_URL)
+        val url = URL(BASE_URL + com.example.javakotlin.utils.LOGIN_GSON_URL)
         with(url.openConnection() as HttpURLConnection) {
 
             requestMethod = POST_METHOD

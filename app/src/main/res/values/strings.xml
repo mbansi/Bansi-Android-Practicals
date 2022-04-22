@@ -99,7 +99,6 @@
     <string name="text_id">ID</string>
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
-    <string name="button_text_login">Login</string>
     <string name="toast_success">Created Successful</string>
     <string name="dialog_text_user_created">User Created!</string>
     <string name="toast_text_login_again">Please login again!</string>
@@ -111,5 +110,22 @@
     <string name="error_text_enter_name">Enter name</string>
     <string name="error_text_enter_job">Enter job</string>
     <string name="dialog_message"> ID: %1$s Name: %2$s Job: %3$s createdAt: %4$s</string>
+
+    <!-- Ch5 Android Architecture -->
+    <string name="button_text_ch5_architecture">Ch5 - Architecture</string>
+    <string name="button_text_mvp">MVP</string>
+    <string name="button_text_mvc">MVC</string>
+    <string name="button_text_mvvm">MVVM</string>
+    <string name="button_text_login">Login</string>
+    <string name="hint_text_rollno">Rollno</string>
+    <string name="button_text_add_student">Add Student</string>
+    <string name="button_text_increment">+1</string>
+    <string name="button_text_login_gson">Login Gson</string>
+    <string name="message_success_login">Successfully Logged in</string>
+    <string name="message_email_required">Email Required</string>
+    <string name="message_proper_email">Enter proper email</string>
+    <string name="message_password_required">Password Required</string>
+    <string name="message_password_too_short">Password too short</string>
+    <string name="error">Email cannot be null</string>
 
 </resources>
