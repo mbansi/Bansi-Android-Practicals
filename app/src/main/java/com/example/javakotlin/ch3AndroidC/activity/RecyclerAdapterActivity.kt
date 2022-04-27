@@ -25,6 +25,8 @@ class RecyclerAdapterActivity : AppCompatActivity() {
         }
         btnLayoutManager.setOnClickListener {
             val layoutManagerIntent = Intent(this, LayoutManagerActivity::class.java)
+            val layoutManagerIntent2 = Intent(this, LayoutManagerActivity::class.java)
+            //layoutManagerIntent = layoutManagerIntent2
             startActivity(layoutManagerIntent)
         }
         btnViewPager.setOnClickListener {

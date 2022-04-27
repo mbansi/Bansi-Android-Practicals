@@ -28,7 +28,7 @@ import java.net.URL
 
 class LoginActivity : AppCompatActivity() {
 
-    var emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
+    private var emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -92,7 +92,7 @@ class LoginActivity : AppCompatActivity() {
         credential.put("username", etUsername.text)
         credential.put("password", etPassword.text)
 
-        val url = URL(com.example.javakotlin.utils.BASE_URL + com.example.javakotlin.utils.LOGIN_GSON_URL)
+        val url = URL(BASE_URL + com.example.javakotlin.utils.LOGIN_GSON_URL)
         with(url.openConnection() as HttpURLConnection) {
 
             requestMethod = POST_METHOD
