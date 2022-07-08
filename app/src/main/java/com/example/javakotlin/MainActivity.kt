@@ -4,6 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
 import com.example.javakotlin.ch3AndroidA.FormButtonsActivity
 import com.example.javakotlin.ch3AndroidB.activity.LayoutsActivity
 import com.example.javakotlin.ch3AndroidC.activity.RecyclerAdapterActivity
@@ -16,6 +19,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        AppCenter.start(
+            application, "9541a4a3-7ead-486f-acde-70275f83f523",
+            Analytics::class.java, Crashes::class.java
+        )
 
         onClickListeners()
     }
